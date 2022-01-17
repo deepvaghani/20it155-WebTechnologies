@@ -1,0 +1,12 @@
+h1{
+    color: brown;
+}
+
+.my_paragraph{
+    text-transform: uppercase;
+}
+
+#style_id{
+    border: brown;
+    text-transform: capitalize;
+}
