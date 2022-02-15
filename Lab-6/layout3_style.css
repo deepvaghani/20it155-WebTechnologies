@@ -1,0 +1,46 @@
+.logo{
+    background-color: lightgray;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.parent-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar{
+    width: 26vw;
+    font-size: 2rem;
+    padding-left: 2vw;
+    padding-top: 3vh;
+    background-color: lightgrey;
+}
+
+.child-box{
+    width: 70vw;
+}
+
+header{
+    background-color: lightgray;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10vh;
+}
+
+.bodyarea{
+    background-color: lightgray;
+    font-size: 2rem;
+    text-align: center;
+    padding: 25vh;
+}
+
+footer{
+    background-color: lightgray;
+    font-size: 2rem;
+    text-align: center;
+}
