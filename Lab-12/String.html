@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+
+<body>
+    <h1>JavaScript String Properties</h1>
+    <p><b>The length property returns the length of a string:</b></p>
+    <p id="length"></p>
+
+    <p><b>slice() method</b></p>
+    <p id="slice"></p>
+
+    <p><b>substring() methodv</b></p>
+    <p id="substring"></p>
+
+    <p><b>Replace CSPIT with DEPSTAR using replace property:</b></p>
+    <p>Welcome to CSPIT</p>
+    <p id="replace">Welcome to CSPIT</p>
+
+    <p><b>Convert string to upper case:</b></p>
+    <p>Deep Vaghani</p>
+    <p id="touppercase">Deep Vaghani</p>
+
+    <p><b>Convert string to lower case:</b></p>
+    <p>DEEP VAGHANI</p>
+    <p id="tolowercase">DEEP VAGHANI</p>
+
+    <script>
+
+        let text = "DEEP PRAVINBHAI VAGHANI";
+        document.getElementById("length").innerHTML = text.length;
+
+        let str = "Deep, Tirth, Heel";
+        document.getElementById("slice").innerHTML = str.slice(6,11); 
+
+        let str1 = "Deep, Tirth, Heel";
+        document.getElementById("substring").innerHTML = str.substring(6,11);
+
+        let text1 = document.getElementById("replace").innerHTML;
+        document.getElementById("replace").innerHTML = text1.replace("CSPIT","DEPSTAR");
+
+        let text2 = document.getElementById("touppercase").innerHTML;
+        document.getElementById("touppercase").innerHTML = text2.toUpperCase();
+
+        let text3 = document.getElementById("tolowercase").innerHTML;
+        document.getElementById("tolowercase").innerHTML = text2.toLowerCase();
+
+    </script>
+
+</body>
+</html>

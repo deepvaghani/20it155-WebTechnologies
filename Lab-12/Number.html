@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number</title>
+</head>
+
+<body>
+    <h1>JavaScript Number Methods</h1>
+    <p><b>toString() method</b></p>
+    <p id="toString"></p>
+
+    <p><b>toExponential() method</b></p>
+    <p id="toExponential"></p>
+
+    <p><b>toPrecision() method</b></p>
+    <p id="toPrecision"></p>
+
+    <p><b>valueOf() method</b></p>
+    <p id="valueOf"></p>
+
+    <p><b>parseInt() method</b></p>
+    <p id="parseInt"></p>
+
+    <p id="demo"></p>
+
+    <script>
+        let a = 155;
+        document.getElementById("toString").innerHTML = a.toString() + "<br>" + (100 + 55).toString();
+
+        let b = 7.155;
+        document.getElementById("toExponential").innerHTML = b.toExponential() + "<br>" +  b.toExponential(2) + "<br>" + b.toExponential(4);
+    
+        let c = 8.155;
+        document.getElementById("toPrecision").innerHTML = c.toPrecision() + "<br>" + c.toPrecision(2) + "<br>" + c.toPrecision(4); 
+
+        let d = 155;
+        document.getElementById("valueOf").innerHTML = d.valueOf() + "<br>" + (155).valueOf() + "<br>" + (100 + 55).valueOf();
+
+        document.getElementById("demo").innerHTML = parseInt("-10") + "<br>" + parseInt("-10.33") + "<br>" + parseInt("10") + "<br>" + parseInt("10.33") + "<br>" + parseInt("10 6") + "<br>" +  parseInt("10 years"); 
+    </script>
+
+</body>
+</html>

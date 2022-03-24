@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+</head>
+
+<body>
+    <h1>JavaScript Date Method</h1>
+    <p><b>new Date()</b></p>
+    <p id="new"></p>
+
+    <p><b>new Date(7 numbers)</b></p>
+    <p id="new1"></p>
+
+    <p><b>new Date(milliseconds)</b></p>
+    <p id="new2"></p>
+
+    <p><b>new Date(Data String)</b></p>
+    <p id="new3"></p>
+
+    <script>
+        const d = new Date();
+        document.getElementById("new").innerHTML = d;
+        const date = new Date(2020, 11, 24, 10, 33, 30, 0);
+        document.getElementById("new1").innerHTML = date;
+        const date1 = new Date(100000000000);
+        document.getElementById("new2").innerHTML = date1;
+        const date2 = new Date("April 28, 2004 13:31:23");
+        document.getElementById("new3").innerHTML = date2;
+    </script>
+
+</body>
+</html>
